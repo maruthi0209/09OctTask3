@@ -10,10 +10,15 @@ header {
 }
 .projects {
     margin-left: 1000px;
+    transition: all 0.5s;
 }
 .about, .contact {
     margin-left: 30px;
+    transition: all 0.5s;
 }
+header>.myclass:hover {
+    background-color: grey;
+} 
 
 .main1, .main2 {
     margin: 40px 25px;
